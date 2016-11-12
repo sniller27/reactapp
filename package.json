@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "postinstall": "webpack",
     "start": "node server.js"
   },
   "repository": {
