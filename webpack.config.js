@@ -1,11 +1,14 @@
+var path = require('path')
+var webpack = require('webpack')
+
 module.exports = {
 
 	entry: "./entry.js",
+	target: 'node',
 	output: {
-		path: __dirname,
-		filename: "bundle.js"
+		path: path.join(__dirname, '/dist'),
+        filename: 'bundle.js',
 	},
-
 	module: {
 		loaders: [
 			{ test: /\.css$/, loader: "style-loader!css-loader" }
@@ -13,3 +16,4 @@ module.exports = {
 	}
 
 }
+console.log('det her er config');
