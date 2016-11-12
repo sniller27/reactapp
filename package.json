@@ -2,9 +2,8 @@
   "name": "webpacktemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "content.js",
+  "main": "server.js",
   "scripts": {
-    "postinstall": "webpack",
     "start": "node server.js"
   },
   "repository": {
