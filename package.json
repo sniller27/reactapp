@@ -4,7 +4,8 @@
   "description": "",
   "main": "content.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "webpack",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/sniller27/webpacktemplate/issues"
   },
-  "homepage": "https://github.com/sniller27/webpacktemplate#readme"
+  "homepage": "https://github.com/sniller27/webpacktemplate#readme",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
