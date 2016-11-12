@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "postinstall": "webpack",
+    "postinstall": "webpack --config ./webpack.config.js --progress --colors",
     "start": "node server.js"
   },
   "repository": {
