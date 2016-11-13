@@ -2,9 +2,9 @@
   "name": "webpacktemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "postinstall": "webpack -p --config ./webpack.config.js --progress --colors",
+    "postinstall": "webpack -p --config webpack.config.js --progress --colors",
     "start": "node server.js"
   },
   "repository": {

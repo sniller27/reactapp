@@ -1,13 +1,18 @@
-var path = require('path')
-var webpack = require('webpack')
+var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
 
-	entry: "./entry.js",
-	target: 'node',
+	entry: [
+    './src/index'
+   ],
+   resolve: {
+    extensions: ['', '.js']
+   },
 	output: {
 		path: path.join(__dirname, '/dist'),
-        filename: 'bundle.js',
+      publicPath: '/',
+      filename: 'bundle.js',
 	},
 	module: {
 		loaders: [
