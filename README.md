@@ -1,7 +1,7 @@
-#ReactJS Application
-My first ReactJS app. The current goal is to play with React, and use the UI Framework, Material UI to build interesting Material Design.
+# ReactJS Application
+Some playing around with ReactJS and webpack.
 
-##Installation
+## Installation
 Install from package.json
 
 ```sh
